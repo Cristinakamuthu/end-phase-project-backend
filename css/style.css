@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&display=swap');
+* {@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+	a {
+		text-decoration: none;
+	}
+	
+	li {
+		list-style: none;
+	}
+}
+header{
+    background-color: #4682B4;
+    height: 5vh;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+
+    button{
+        border-radius: 10px;
+        height:3vh ;
+        width: 10vh;
+        background-color: antiquewhite;
+    }
+    input{
+        border-radius: 8px;
+        height:3vh ;
+        width: 30vh;
+        background-color: antiquewhite;
+}
+}
+
+h4{
+    background-color: #F0E68C;
+    height: 23vh;
+    font-family: "Emilys Candy", serif;
+    font-weight: 1000;
+    font-style: normal;
+    text-align: center;
+    padding: 50px;
+    font-size: 40px;
+    
+}
+nav {
+    font-size: 24px;
+    background-color: #F0E68C;
+    
+     border: #F8FAE5;
+     letter-spacing: 1px;
+     padding: 16px;
+     justify-content: space-between 30px;
+     text-align: center;
+     word-spacing: 70px;
+
+     
+    }
+    a{
+        color: #000;
+        font-weight: 150px;
+        font-size: 30px;
+        font-family: "Emilys Candy", serif;
+    font-weight: 800;
+    font-style: normal;
+    
+}
+    
+    nav a:hover {
+color: #4682B4;
+
+}
+#classicaldays{
+    height: 100vh;
+    padding-top: 30px;
+    background-color: #4682B4;
+
+
+    img {
+        height: 70vh;
+    }
+    .name{
+        font-family: "Bilbo Swash Caps", cursive;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 45px;
+
+    }
+    .about{
+        justify-content: center;
+        text-align: center;
+        padding-top: 200px;
+        font-family: "Winky Sans", sans-serif;
+ font-size: 18px;
+  font-weight: 900;
+  
+  
+
+    }
+
+}
+
+.classicalmoments{
+    display: flex;
+    justify-content: space-between;
+    
+
+    .search{
+        justify-content: center;
+        background-image: url(/images/images.jpeg);
+        
+    }
+    h2{
+        color: #F0E68C;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+    .container {
+        padding-top: 5px;
+    }
+
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4682B4;
+    background-color: #F0E68C;
+    height: 40vh;
+
+    .same{
+        border-radius: 20px;
+        height: 25vh;
+        width: 45vh;
+    }
+    button{
+        border-radius: 20px;
+        height: 25vh;
+        width: 45px;
+    }
+}
+
+
+
